@@ -18,7 +18,7 @@
 <h3>{{ videos|length }} video{{ videos|length|pluralize }}</h3>
 
 {% for video in videos %}
-<div>
+<div onclick="location.href='/details/{{ video.pk }}';" id="video-box">
     <h3>
         {{ video.name }}
     </h3>

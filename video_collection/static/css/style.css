@@ -9,3 +9,6 @@ body {
     color: #efefef;
     padding-right: 30px;
 }
+#video-box {
+    cursor: pointer;
+}
